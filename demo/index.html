@@ -15,7 +15,7 @@ input { outline:none; border:1px solid #000; }
 <script>
 
     $.jvalidator.addPattern('must',{
-        message : '必须写成12345' , 
+        message : '必须写成' , 
         validate : function( value , done ) {
             done( value == "12345" ); 
         }
